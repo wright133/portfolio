@@ -1,12 +1,27 @@
-import { useState } from "react";
-import { Link } from "react-router-dom"; // optional, if you're using React Router
+import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Menu.css";
-
 
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // If menu is open AND the click target is outside the menu
+      if (isOpen && menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
 
   return (
     <>
@@ -17,7 +32,7 @@ export default function Menu() {
       </div>
 
       {/* Sliding Menu Overlay */}
-      <div className={`side-menu ${isOpen ? "open" : ""}`}>
+      <div ref={menuRef} className={`side-menu ${isOpen ? "open" : ""}`}>
         <div className="menu-header">
           <span className="close-btn" onClick={toggleMenu}>✕</span>
         </div>
@@ -29,13 +44,8 @@ export default function Menu() {
         </ul>
         <div className="menu-footer">
           <a href="https://x.com/__IanWright__" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-x-twitter"></i>
           </a>
-          {/* <a href="https://instagram.com/your_handle" target="_blank" rel="noopener noreferrer">
-          </a> */}
-          {/* <a href="https://discord.com/invite/your_invite" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-discord"></i>
-          </a> */}
         </div>
       </div>
     </>
