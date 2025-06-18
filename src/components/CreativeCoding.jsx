@@ -89,9 +89,9 @@ export default function CreativeCoding () {
       <div className="col-md-6 m-3">
          <p>
             Creative coding is where my artistic voice and technical mind converge.  
-            It’s how I think, design, test, and build — whether it’s a generative NFT drop, an automation tool, or a <i>decentralized energy tracker</i>.
+            It’s how I think, design, test, and build — whether it’s a generative art drop, an automation tool, or some <i>decentralized energy tracker</i>.
             <br /><br />
-            To me, it’s not just about writing code. It’s about bringing ideas to existence. 
+            I am a builder. <br></br>To me, it’s not just about writing code. <br></br>It’s about bringing ideas to life.  
         </p>
       </div>
     </div>
@@ -118,10 +118,11 @@ export default function CreativeCoding () {
         <strong>Web Development & Dev Tools</strong>
         <ul>
           <li>React, TailwindCSS</li>
+          <li>PHP</li>
           <li>Node.js, Express</li>
           <li>Solidity + Foundry</li>
-          <li>Firebase, Supabase</li>
-          <li>GitHub, Vercel, WSL</li>
+          <li>MySQL, Firebase, Supabase</li>
+          <li>Git, Vercel/Netlify, WSL</li>
         </ul>
       </div>
     </div>
