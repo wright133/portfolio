@@ -48,7 +48,7 @@ export default function Exhibitions() {
                             <img src={TriptychCapture} alt="Triptych Installation" />
                         </div>
 
-                        <br />
+                        <br /><br />
                         <h3>African Union Day (2024)</h3>
                         <p>
                             Umoja was displayed during African Union Day celebrations in Brasilia, Brazil, in early 2024. The project resonated strongly with the event’s message of cultural solidarity, identity, and community.
@@ -58,7 +58,7 @@ export default function Exhibitions() {
                             <img src={BrazilImage} alt="African Union Day Brazil" />
                         </div>
 
-                        <br />
+                        <br /><br />
                         <h3>ZERO ONE x Lila - Seoul, South Korea (2024)</h3>
                         <p>
                             Umoja appeared in a hybrid art and music event — a unique collaboration between <b><a href="https://x.com/zero________one" target="_blank" rel="noreferrer">@zero________one</a></b> and <b>Lila</b>. This immersive exhibition explored culture through sound and visuals, and Umoja’s presence served as a digital thread stitching global experiences together.
@@ -69,7 +69,7 @@ export default function Exhibitions() {
                             <video src={KoreaImage} controls autoPlay muted loop width="100%" />
                         </div>
 
-                        <br />
+                        <br /><br />
                         <h3>Rhizome World - New York, US (2025)</h3>
                         <p>
                             In 2025, Umoja was invited to show at <b>Rhizome World</b> — an annual global event by <b><a href="https://x.com/rhizome" target="_blank" rel="noreferrer">@rhizome</a></b> and <b><a href="https://x.com/ProcessingOrg" target="_blank" rel="noreferrer">@ProcessingOrg</a></b>. This was a full-circle moment as we showcased generative work alongside creators from all over the world who had also bridged the gap between software and story-telling. 
@@ -78,7 +78,7 @@ export default function Exhibitions() {
                             <img src={RhizomeImage} alt="Rhizome World NYC" />
                         </div>
 
-                        <br />
+                        <br /><br />
                         <h3>Where Next?</h3>
                         <p>
                             This journey is far from over. Works like 'Umoja' continue to be exhibited worldwide, and this page will be updated manually as new milestones are achieved.
