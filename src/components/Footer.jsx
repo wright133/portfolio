@@ -11,7 +11,7 @@ export default function Footer () {
         <div className="container">
             <div className="footer"> 
                 <Link className="linkFeatured removeTextDecoration" to="/">
-                    <p>&copy; <b>ianwright.netlify.app</b> - 2024 </p>
+                    <p>&copy; <b>ianwright.vercel.app</b> - 2024 </p>
                 </Link>
             </div>
         </div>
