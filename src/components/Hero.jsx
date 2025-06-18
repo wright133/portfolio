@@ -24,7 +24,7 @@ export default function Hero() {
               <div className="heroCard black m-auto card-animation">
                 <div className="heroCardItem">
                   <div className="img-container">
-                    <img src={VisualArt} alt="" />
+                    <img src="https://pbs.twimg.com/media/Ghmpr2lWIAArJWN?format=jpg&name=4096x4096" alt="" />
                   </div>
                   <h1 className="title">Visual Art</h1>
                   <div className="line"></div>

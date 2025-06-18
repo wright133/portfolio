@@ -25,7 +25,7 @@ export default function Featured () {
                 <div className="col-lg-6 col-md-6 m-auto mb-3 d-flex justify-content-center"> 
                     <div className="featured-card"> 
                         <div className="img-container">
-                            <img src={UmojaImage} alt="" />
+                            <img src="https://pbs.twimg.com/media/Gor2G_8WsAAtWev?format=jpg&name=4096x4096" alt="" />
                         </div>
                         <div className="title">Umoja</div>
                         <div className="desc">Inspired by the bustling crowds common in urban areas, <i>Umoja</i> is an amazing work of art that perfectly captures the theme of unity.</div> 
