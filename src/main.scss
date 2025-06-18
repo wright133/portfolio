@@ -701,7 +701,20 @@ $premiumBlue: #0e74f6;
 
     
     .journalCardLink {
-        text-decoration: none; 
+        text-decoration: none !important;
+        
+        a {
+            text-decoration: none !important;
+        }
+    }
+
+    
+    .journalCardHyperlink {
+        text-decoration: none !important;
+        
+        a {
+            text-decoration: none !important;
+        }
     }
 
     .journalCard {
@@ -712,6 +725,7 @@ $premiumBlue: #0e74f6;
         background: beige; 
         overflow: hidden; 
         margin: 20px; 
+        text-decoration: none; 
 
         &:hover{
             background: #f5f5f5;  

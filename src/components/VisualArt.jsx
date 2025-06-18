@@ -205,25 +205,27 @@ export default function VisualArt() {
 
           <div className="row">
             <div className="col-lg-4 col-sm-12 col-md-12 mb-5">
-              <Link className="journalCardLink" to="/visual-art">
-                <div className="journalCard black m-auto">
-                  <div className="journalCardItem">
-                    <div className="img-container">
-                      <img src={HeritageJournal} alt="" />
+              {/* <Link className="journalCardLink" to="#"> */}
+                <a className="journalCardHyperlink" href="https://blog.codecanvas.art/beyond-the-code-with-kamau-kamau-ian-wright/"  target="_blank" rel="noreferrer">
+                  <div className="journalCard black m-auto">
+                    <div className="journalCardItem">
+                      <div className="img-container">
+                        <img src={HeritageJournal} alt="" />
+                      </div>
+                      <p className="title" title="Title / Gallery / Museum">
+                        Beyond The Code - Code Canvas Blog
+                      </p>
+                      <p className="occasion" title="Event"></p>
+                      <p className="country" title="Location"></p>
+                      <p className="desc">
+                        Honorable mention by the Code Canvas Team following the
+                        drop of "Heritage" on Code Canvas, home for curated
+                        Generative Art Drops.
+                      </p>
                     </div>
-                    <p className="title" title="Title / Gallery / Museum">
-                      Beyond The Code - Code Canvas Blog
-                    </p>
-                    <p className="occasion" title="Event"></p>
-                    <p className="country" title="Location"></p>
-                    <p className="desc">
-                      Honorable mention by the Code Canvas Team following the
-                      drop of "Heritage" on Code Canvas, home for curated
-                      Generative Art Drops.
-                    </p>
                   </div>
-                </div>
-              </Link>
+                </a>
+              {/* </Link> */}
             </div>
           </div>
         </div>
