@@ -42,9 +42,12 @@ export default function Featured () {
                         <div className="img-container">
                             <img src={ArtBaselImage} alt="" />
                         </div>
-                        <div className="title">Art Basel 2023</div>
-                        <div className="desc">Umoja's exhibition at Art Basel, Miami, on the very same day of launch, with collectors minting the pieces live on FxHash. <br></br></div> 
-                        <div className="button">View this article <i className="fa-solid fa-arrow-right"></i></div>
+                        <div className="title">Exhibitions</div>
+                        <div className="desc">Umoja's exhibition at Art Basel, Miami, on the very same day of launch, with collectors minting the pieces live on FxHash. Details on more exhibitions. <br></br></div> 
+                        
+                        <Link className="linkFeatured" to="/exhibitions">
+                            <div className="button">View this article <i className="fa-solid fa-arrow-right"></i></div>
+                        </Link>
                     </div>
                 </div>
                 

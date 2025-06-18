@@ -9,7 +9,7 @@ import HeritageImage from "../assets/visual-art/link/heritage_smaller.png";
 import Footer from "./Footer";
 import { Tweet } from "react-tweet";
 import { useEffect } from "react";
-
+import artworks from "./data/artworks";
 
 export default function VisualArt() {
   useEffect(() => {
@@ -58,15 +58,15 @@ export default function VisualArt() {
         {/* header elements */}
         <div className="container d-flex justify-content-between">
           <h1>Artworks</h1>
-          <select name="artworks" id="artworks">
+          {/* <select name="artworks" id="artworks">
             <option value="Featured">Sort</option>
             <option value="Newest">Recent</option>
             <option value="Oldest">Oldest</option>
-          </select>
+          </select> */}
         </div>
 
         {/* Artwork elements */}
-        <div className="row d-flex justify-content-center">
+        {/* <div className="row d-flex justify-content-center">
           <div className="col-md-4">
             <Link to="/artwork">
               <div className="art-card">
@@ -110,12 +110,28 @@ export default function VisualArt() {
               </div>
             </div>
           </div>
+        </div> */}
+        <div className="row">
+          {artworks.map((art) => (
+            <div key={art.slug} className="col-md-4">
+              <Link  style={{ textDecoration: 'none' }} to={`/artwork/${art.slug}`}>
+                <div className="art-card">
+                  <div className="img-container">
+                    <img src={art.thumbnail} alt={art.title} />
+                  </div>
+                  <div className="desc">
+                    <p>{art.title}</p>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          ))}
         </div>
 
         {/* show more button */}
-        <div className="container mt-2 mb-5 bottom-border d-flex justify-content-center">
+        {/* <div className="container mt-2 mb-5 bottom-border d-flex justify-content-center">
           <button className="showMoreBtn mb-4">Show more</button>
-        </div>
+        </div> */}
 
         {/* Exhibition elements */}
 
@@ -124,32 +140,30 @@ export default function VisualArt() {
 
           <div className="row">
             <div className="col-lg-4 col-sm-12 col-md-12 mb-5">
-              <Link className="exhibitionCardLink" to="/visual-art">
+              <Link className="exhibitionCardLink" to="/exhibitions">
                 <div className="exhibitionCard black m-auto">
                   <div className="exhibitionCardItem">
                     <div className="img-container">
                       <img src={MuseumDeArt} alt="" />
                     </div>
                     <p className="title" title="Title / Gallery / Museum">
-                      Museu de Arte de Brasilia
+                      Museu de Arte de Brasilia, Rhizome, Art Basel and more
                     </p>
                     <p className="occasion" title="Event">
-                      Africa Day 2024
+                      {/* Africa Day 2024 */}
                     </p>
                     <p className="country" title="Location">
-                      Brazil
+                      {/* Brazil */}
                     </p>
                     <p className="desc">
-                      <b>Kamau Kamau</b> and I got to showcase <b>six</b> of our
-                      works at a special exhibition at Museu de Arte de Brasilia
-                      in honour of Africa Day 2024
+                      Showcasing my works at a special exhibitions all around the world. Read more about these global exhibitions. 
                     </p>
                   </div>
                 </div>
               </Link>
             </div>
 
-            <div className="col-lg-4 col-sm-12 col-md-12 mb-5">
+            {/* <div className="col-lg-4 col-sm-12 col-md-12 mb-5">
               <Link className="exhibitionCardLink" to="/visual-art">
                 <div className="exhibitionCard black m-auto">
                   <div className="exhibitionCardItem">
@@ -174,6 +188,7 @@ export default function VisualArt() {
                 </div>
               </Link>
             </div>
+             */}
           </div>
         </div>
 

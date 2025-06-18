@@ -1,0 +1,94 @@
+/* Container to trigger menu */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuButton {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Side Menu Sliding Panel */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  /* background: #efefef; */
+  background: rgba(255, 255, 255, 0.6); /* light color with transparency */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+/* When open */
+.side-menu.open {
+  transform: translateX(0);
+}
+
+/* Width responsiveness */
+@media screen and (min-width: 768px) {
+  .side-menu {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .side-menu {
+    width: 80%;
+  }
+  .menu-links {
+    font-size: 30px !important; 
+  }
+}
+
+/* Menu content styling */
+.menu-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-links {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.menu-footer a {
+  text-decoration: none;
+  color: #666;
+  font-size: 1.1rem;
+}
