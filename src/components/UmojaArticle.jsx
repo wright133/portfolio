@@ -25,7 +25,7 @@ export default function UmojaArticle () {
                         <span>~ 3 min read</span>
                         <br />
                         <br />
-                        <p>Art has always had the ability to tell powerful stories, and when combined with the boundless possibilities of technology, it can transcend the boundaries of what’s possible. <b>Umoja</b> is a generative art project that celebrates unity and togetherness, conceived by the artists <b>Kamau Kamau</b> and <b>Ian Wright</b> (me). Rooted in culture, abstraction, and the bustling scenes of Nairobi, <b>Umoja</b> brings an entire canvas to life one figurine at a time, painting a picture of shared existence.</p>
+                        <p>Art has always had the ability to tell powerful stories, and when combined with the boundless possibilities of technology, it can transcend the boundaries of what’s possible. <b>Umoja</b> is a generative art project that celebrates unity and togetherness, conceived by the artists <a href="https://x.com/_KamauKamau/" target="_blank" rel="noreferrer"><b>Kamau Kamau</b></a> and <b>Ian Wright</b> (me). Rooted in culture, abstraction, and the bustling scenes of Nairobi, <b>Umoja</b> brings an entire canvas to life one figurine at a time, painting a picture of shared existence.</p>
                         <br />
                         <h3>What is Umoja?</h3>
                         <p><b>"Umoja"</b> is a Swahili term meaning <i>"togetherness"</i> or <i>"unity"</i>. The project draws inspiration from the crowded, lively streets and marketplaces of Nairobi, Kenya. It reflects the beauty of people from different walks of life coming together, forming a cohesive and vibrant whole. Just like the abstract figures in the artwork, individuals may seem disconnected at first, but as the picture unfolds, the harmony among them becomes evident. This evolving journey results in a striking visual narrative of culture, identity, and belonging.</p>
@@ -78,7 +78,7 @@ export default function UmojaArticle () {
                         
                         <h3>Special Thanks</h3>
                         
-                        <p>We extend our gratitude to the communities and platforms that supported us in making Umoja a reality, including <b>FxHash, RefractionDAO, and Tezos</b>. The project premiered at <b>South Beach/Art Basel Miami 2023</b>, embodying the spirit of togetherness and unity that has been central to its journey.</p>
+                        <p>We extend our gratitude to the communities and platforms that supported us in making Umoja a reality, including <b><a href="https://x.com/fx_hash_/" target="_blank" rel="noreferrer">FxHash</a></b>, <b><a href="https://x.com/RefractionDAO" target="_blank" rel="noreferrer">Refraction DAO</a></b>, and <b><a href="https://x.com/tezos" target="_blank" rel="noreferrer">Tezos</a></b>. The project premiered at <b>South Beach/Art Basel Miami 2023</b> (Learn more <a href="https://refreshmiami.com/event/tezos-south-beach/" target="_blank" rel="noreferrer">here</a> and <a href="https://spotlight.tezos.com/the-tezos-art-community-takes-over-south-beach-during-art-basel/" target="_blank" rel="noreferrer">here</a>), embodying the spirit of togetherness and unity that has been central to its journey.</p>
                         <br />
                         <p><i><b>“Asante (Thank you in Swahili) to everyone who supported us throughout this process. Your encouragement and belief in our vision made this project possible.”</b></i></p>
                         <br />
