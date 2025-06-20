@@ -6,12 +6,13 @@ export default function Footer () {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+    const currentYear = new Date().getFullYear();
 
     return (
         <div className="container">
             <div className="footer"> 
                 <Link className="linkFeatured removeTextDecoration" to="/">
-                    <p>&copy; <b>ianwright.vercel.app</b> - 2024 </p>
+                    <p> <b>Ian Wright</b> &copy; {currentYear} </p>
                 </Link>
             </div>
         </div>
