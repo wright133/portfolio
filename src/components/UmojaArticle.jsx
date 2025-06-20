@@ -55,7 +55,7 @@ export default function UmojaArticle () {
                         <br />
                         <h3>A Cultural Tribute</h3>
                         
-                        <p>At its core, Umoja is a celebration of humanity. We made sure each color palette in the project was named in Swahili, the our native language. This decision adds another cultural layer to the project, emphasizing that unity transcends differences in culture, tribe, and identity. By presenting abstract crowds of people in vibrant, dynamic color schemes, the project highlights how, <b>despite our differences, we are united in our shared experiences</b>.</p> 
+                        <p>At its core, Umoja is a celebration of humanity. We made sure each color palette in the project was named in Swahili, our native language. This decision adds another cultural layer to the project, emphasizing that unity transcends differences in culture, tribe, and identity. By presenting abstract crowds of people in vibrant, dynamic color schemes, the project highlights how, <b>despite our differences, we are united in our shared experiences</b>.</p> 
                         
                         <i><b>“This is Umoja—a project celebrating people from every walk of life, different cultures, tribes, and fashion, and seeing the uniting factor despite our differences.”</b></i>
                         <br />
@@ -63,14 +63,14 @@ export default function UmojaArticle () {
                         
                         <h3>The Final Masterpiece</h3>
                         
-                        <p>After thousands of lines of code, numerous iterations, and weeks of research, <b>Umoja</b> was born as a fully on-chain generative art project. Its design allows for endless variations, producing unique iterations of abstract crowds with thousands of traits. The final artwork showcases a seamless fusion of digital creativity and cultural storytelling, making each piece a celebration of unity.</p>
+                        <p>After weeks of deep focus (coding, tweaking, and exploring different ideas), <b>Umoja</b> finally came to life. It’s a fully on-chain generative art piece that captures abstract crowds in all their variation, with thousands of subtle traits. Each iteration tells its own visual story, evoking <i>a sense of shared culture and togetherness</i>.</p>
                         <br />
                         <div className="img-container">
                             <img src={UmojaMasterpiece} alt="" />
                         </div>
                         <br />
                         <br />
-                        <p><b>Umoja</b> is now available for minting on the generative art marketplace <b>FxHash</b>. With 254 tokens available (symbolic of Kenya’s country code), each piece is a rare and distinctive representation of <b>our vision for a more connected world</b>.</p>
+                        <p><b>Umoja</b> is now available for minting on the generative art marketplace <b><a href="https://www.fxhash.xyz/generative/slug/umoja" target="_blank" rel="noreferrer">FxHash</a></b>. With 254 tokens available (symbolic of Kenya’s country code), each piece is a rare and distinctive representation of <b>our vision for a more connected world</b>.</p>
                         <br />
                         <p><i><b>"After countless hours of work, we are proud to present our culturally inspired project, ‘Umoja’ (Swahili for ‘togetherness’ or ‘unity’). Now live for minting on FxHash."</b></i></p>
                         <br />
@@ -92,7 +92,7 @@ export default function UmojaArticle () {
                         <br />
                         <p><b>Mint now</b> on FxHash and become a part of this generative celebration of culture and community.</p>
                         <br />
-                        <p><a href="https://www.fxhash.xyz/generative/slug/umoja">Link to Mint</a></p>
+                        <p><a href="https://www.fxhash.xyz/generative/slug/umoja" target="_blank" rel="noreferrer">Link to Mint</a></p>
                     </div>
                 </div>
             </div>

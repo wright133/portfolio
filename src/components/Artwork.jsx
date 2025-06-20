@@ -26,9 +26,11 @@ export default function Artwork() {
             <br />
             <h5>Description</h5>
             <div className="desc">
-              <ReadMore limit={400}>
-                {art.description}
-              </ReadMore>
+              <p style={{ whiteSpace: 'pre-line', lineHeight: 1.6 }}>
+                <ReadMore limit={400}>
+                  {art.description}
+                </ReadMore>
+              </p>
               <p><a href={art.link} target="_blank" rel="noopener noreferrer">View on Marketplace</a></p>
             </div>
           </div>
