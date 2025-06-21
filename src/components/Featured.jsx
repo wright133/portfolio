@@ -2,7 +2,7 @@ import HeritageImage from "../assets/heritage-001.png";
 import UmojaImage from "../assets/umoja.png"; 
 import ArtBaselImage from "../assets/umoja-art-basel.jpg"; 
 import RhizomeImage from "../assets/exhibitions/rhizome-ny-2.jpeg";
-import InnerReflectionImage from "../assets/articles/inner-reflection/ir1.png";
+import InnerReflectionImage from "../assets/articles/inner-reflection/ir6.png";
 import { Link } from "react-router-dom";
 import "./Featured.css";
 
