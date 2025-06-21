@@ -31,8 +31,8 @@ export default function Featured () {
                         <img src={RhizomeImage} className="d-block w-100 carousel-img" alt="Update 2" />
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption d-block d-md-block">
-                            <h5 >Rhizome World Exhibition</h5>
-                            <p>Umoja showcased at Rhizome event in New York.<br></br>
+                            <h5 >Rhizome World</h5>
+                            <p>Umoja exhibited at Rhizome World in New York, USA.<br></br>
                             <a target="_blank" href="/exhibitions">Learn more</a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </p>
                         </div>
