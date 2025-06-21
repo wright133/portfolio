@@ -1,0 +1,141 @@
+.featured-separator-2 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    width: 100%; 
+    border-bottom: 1px solid #000;
+}
+
+.carousel {
+    /* padding-top: 20px;  */
+    /* padding-bottom: 70px;  */
+    border-bottom: 1px solid #000; 
+    border-radius: 20px !important; 
+    /* background-color: red; */
+}
+
+.carousel-img {
+  height: 500px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  transform: scale(1.2);
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Adjust opacity for darkness */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+    /* font-size: 30px; */
+  bottom: 5%;
+  left: 15%;
+  right: 20px;
+  z-index: 444 !important;
+  color: #fff !important;
+  text-align: left;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Optional: Override for large screens */
+@media (min-width: 768px) {
+  .carousel-img {
+    height: 400px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    font-size: 1.1rem;
+    bottom: 5%;
+    left: 10%;
+    right: 24px;
+    z-index: 444;
+    text-align: left;
+  }
+
+  
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .carousel-caption p a {
+        color: #fff; 
+    }
+
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 500px; 
+  }
+
+  .carousel-caption {
+    /* font-size: 0.9rem; */
+    bottom: 10%;
+    left: 10%;
+    /* right: 12px; */
+    padding: 8px 12px;
+    /* background: rgba(0, 0, 0, 0.4); semi-transparent bg for visibility */
+    border-radius: 8px;
+    z-index: 444;
+    /* line-height: 1.4; */
+  }
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .carousel-caption p a {
+        color: #fff; 
+    }
+}
+
+
+@media (max-width: 576px) {
+  .carousel-img {
+    height: 200px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    font-size: 0.5rem;
+    min-width: 30%; 
+    max-width: 50%; 
+    bottom: 5%;
+    left: 10%; 
+    /* right: 12px; */
+    /* padding: 8px 12px; */
+    /* background: rgba(0, 0, 0, 0.4); semi-transparent bg for visibility */
+    border-radius: 8px;
+    z-index: 444;
+  }
+
+    .carousel-caption h5 {
+        font-size: 0.7rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.5rem;
+    }
+
+    .carousel-caption p a {
+        color: #fff; 
+    }
+}
