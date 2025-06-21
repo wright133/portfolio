@@ -32,7 +32,7 @@ export default function Featured () {
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption d-block d-md-block">
                             <h5 >Rhizome World Exhibition</h5>
-                            <p>Umoja finally showcased at Rhizome event in New York, 2025.<br></br>
+                            <p>Umoja showcased at Rhizome event in New York.<br></br>
                             <a target="_blank" href="/exhibitions">Learn more</a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </p>
                         </div>
@@ -43,9 +43,9 @@ export default function Featured () {
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption d-block d-md-block">
                             <h5>Inner Reflection</h5>
-                            <p>This is a <b>new</b> generative art release by Kamau Kamau and I, on <b>Bitcoin</b>. 
+                            <p>This is a <b>new</b> generative art release on <b>Bitcoin</b>. 
                             <br></br> 
-                            <a target="_blank" href="https://gamma.io/ordinals/collections/inner-reflection">Currently minting on <b>Gamma</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a target="_blank" href="https://gamma.io/ordinals/collections/inner-reflection">View on <b>Gamma</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </p> 
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function Featured () {
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption d-block d-md-block">
                             <h5>Heritage</h5>   
-                            <p>A curated generative art release on Solana (2024). 
+                            <p>A curated generative art release on <b>Solana</b>. 
                                 <br></br>  
                                 <a target="_blank" href="https://codecanvas.art/drop/D7brx6P5ASv6aYrgg7oMneNmT7y81Zqczwq1i7ksXKcv">View on <b>Code Canvas</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </p>
