@@ -43,7 +43,7 @@ export default function Featured () {
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption d-block d-md-block">
                             <h5>Inner Reflection</h5>
-                            <p>This is a <b>new</b> generative art release by Kamau Kamau and I, on <b>Bitcoin</b>. Check it out. 
+                            <p>This is a <b>new</b> generative art release by Kamau Kamau and I, on <b>Bitcoin</b>. 
                             <br></br> 
                             <a target="_blank" href="https://gamma.io/ordinals/collections/inner-reflection">Currently minting on <b>Gamma</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </p> 
@@ -57,7 +57,7 @@ export default function Featured () {
                             <h5>Heritage</h5>   
                             <p>A curated generative art release on Solana (2024). 
                                 <br></br>  
-                                <a target="_blank" href="https://codecanvas.art/drop/D7brx6P5ASv6aYrgg7oMneNmT7y81Zqczwq1i7ksXKcv">View full collection on <b>Code Canvas</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                <a target="_blank" href="https://codecanvas.art/drop/D7brx6P5ASv6aYrgg7oMneNmT7y81Zqczwq1i7ksXKcv">View on <b>Code Canvas</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </p>
                         </div>
                     </div>
