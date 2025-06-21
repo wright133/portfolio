@@ -65,11 +65,11 @@
 
   
     .carousel-caption h5 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .carousel-caption p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .carousel-caption p a {
@@ -99,7 +99,7 @@
     }
 
     .carousel-caption p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .carousel-caption p a {
@@ -117,7 +117,7 @@
     position: absolute;
     font-size: 0.5rem;
     min-width: 30%; 
-    max-width: 50%; 
+    max-width: 70%; 
     bottom: 5%;
     left: 10%; 
     /* right: 12px; */
@@ -128,11 +128,11 @@
   }
 
     .carousel-caption h5 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .carousel-caption p {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .carousel-caption p a {
