@@ -38,7 +38,7 @@ export default function CreativeCoding () {
                         </div>
                         <h1 className="title">Generative Art & Coding Experiments</h1>
                         <div className="line"></div>
-                        <p className="desc">I use algorithms, randomness, and geometry to create generative visual works</p>
+                        <p className="desc">I use algorithms to create generative visual art.</p>
                         </div>
                     </div>
                     </Link>
@@ -53,7 +53,7 @@ export default function CreativeCoding () {
                         </div>
                         <h1 className="title">Software Development & Web3 Projects</h1>
                         <div className="line"></div>
-                        <p className="desc">I build applications, interfaces, and tools using technologies like JavaScript, Solidity, React, and more.
+                        <p className="desc">I build applications using technologies like React, Solidity etc.
                         </p>
                         </div>
                     </div>
