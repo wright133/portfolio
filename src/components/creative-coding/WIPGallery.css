@@ -1,0 +1,87 @@
+
+.wip-gallery h2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.wip-gallery img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.wip-gallery img:hover {
+  transform: scale(1.02);
+}
+
+.wip-carousel-gallery {
+  background: #efefef; 
+  /* background: red; */
+  padding-bottom: 4rem;
+}
+
+.carousel-image-wrapper {
+  position: relative;
+  height: 77vh;
+  overflow: hidden;
+  /* background: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-img {
+  object-fit: contain;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+  margin: auto;
+  /* box-shadow: 5px 5px 15px rgba(0,0,0,0.9); */
+  box-shadow: 9px 18px 37px -12px rgba(0,0,0,0.74);
+-webkit-box-shadow: 9px 18px 37px -12px rgba(0,0,0,0.74);
+-moz-box-shadow: 9px 18px 37px -12px rgba(0,0,0,0.74);
+}
+
+.carousel-caption-custom {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 16px 24px;
+  border-radius: 8px;
+  max-width: 60%;
+  font-size: 1rem;
+  text-align: left;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.9);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0); /* turns it black */
+}
+
+#wipCarousel {
+    border-bottom: none; 
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption-custom {
+    bottom: 0px;
+    left: 16px;
+    right: 16px;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin:auto; 
+    text-align: center;
+  }
+
+  .carousel-img {
+    max-height: 40vh;
+    /* box-shadow: 5px 5px 10px rgba(0,0,0,0.9); */
+    box-shadow: 9px 18px 37px -12px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 9px 18px 37px -12px rgba(0,0,0,0.74);
+    -moz-box-shadow: 9px 18px 37px -12px rgba(0,0,0,0.74);
+  }
+}

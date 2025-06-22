@@ -14,8 +14,8 @@ export default function CreativeCoding () {
             
             <div className="container mt-5">
                 <div className="alert alert-warning text-center" role="alert">
-                    🚧 This page is still under construction. Some links or sections may not be fully functional yet.<br />
-                    Expected full update by <strong>June 23th, 2025</strong>.
+                    🚧 This page is still under construction. <b>Feel free to look around</b> but some links or sections may not be fully functional yet. 
+                    Expected full update by <strong>June 25th, 2025</strong>.
                 </div>
             </div>
 
@@ -30,13 +30,13 @@ export default function CreativeCoding () {
             <div className="hero d-flex justify-content-center">
                 <div className="row d-flex justify-content-around">
                 <div className="col-lg-6 col-sm-12 col-md-12 mb-5">
-                    <Link className="linkCards" to="#">
-                    <div className="heroCard black m-auto card-animation">
+                    <Link className="linkCards" to="/creative-coding/gen-art">
+                    <div className="heroCard black m-auto p-1 card-animation">
                         <div className="heroCardItem">
                         <div className="img-container">
                             <img src="https://pbs.twimg.com/media/GqcTKojWQAAWego?format=jpg&name=4096x4096" alt="" />
                         </div>
-                        <h1 className="title">Generative Art & Coding Experiments</h1>
+                        <h1 className="title">Generative Art & Experiments</h1>
                         <div className="line"></div>
                         <p className="desc">I use algorithms to create generative visual art.</p>
                         </div>
@@ -45,13 +45,13 @@ export default function CreativeCoding () {
                 </div>
 
                 <div className="col-lg-6 col-sm-12 col-md-12 mb-5">
-                    <Link className="linkCards" to="#">
-                    <div className="heroCard black m-auto card-animation">
+                    <Link className="linkCards" to="/creative-coding/dev">
+                    <div className="heroCard black m-auto p-1 card-animation">
                         <div className="heroCardItem">
                         <div className="img-container">
                             <img src="https://www.corporatevision-news.com/wp-content/uploads/2022/04/Software-Development.jpg" alt="" />
                         </div>
-                        <h1 className="title">Software Development & Web3 Projects</h1>
+                        <h1 className="title">Dev Projects & Tools</h1>
                         <div className="line"></div>
                         <p className="desc">I build applications using technologies like React, Solidity etc.
                         </p>

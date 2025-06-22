@@ -1,0 +1,17 @@
+.tutorials-page h2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  color: #2a2a2a;
+}

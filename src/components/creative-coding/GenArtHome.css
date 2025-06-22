@@ -1,0 +1,29 @@
+.gen-art-home h2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.gen-art-home p {
+  line-height: 1.7;
+}
+
+.gen-art-home .card-title {
+  font-weight: 600;
+}
+
+.gen-art-home .btn {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+}
+
+
+.gen-art-home h4, .gen-art-home h5 {
+  font-weight: 600;
+  color: #222;
+}
+
+.gen-art-home p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}

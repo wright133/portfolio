@@ -1,0 +1,76 @@
+.experiments-page {
+  /* background-color: #fefefe; */
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.experiments-page h2,
+.experiments-page h4 {
+  font-weight: 700;
+}
+
+.experiments-page .lead {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.experiments-page .card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.experiments-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experiments-page .card-title {
+  font-weight: 600;
+}
+
+.experiments-page .card-text {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.experiments-page .btn {
+  border-radius: 20px;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+}
+
+.experiments-page .text-center p {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.experiment-card img.experiment-image {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.experiment-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiment-card .btn {
+  margin-top: auto;
+}
+
+
+@media (max-width: 768px) {
+  .experiments-page .card-text {
+    font-size: 0.9rem;
+  }
+
+  .experiments-page .lead {
+    font-size: 1rem;
+  }
+}
