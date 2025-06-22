@@ -47,7 +47,7 @@ export default function VisualArt() {
                   </a>
                 </span>
                 <img
-                  src="https://i.seadn.io/gae/ahoGV3o4vd2lGrKVNfMj0EjD-qX_hGIqe8BuCve-0HI4Om735xGBqK5iMWE6TafzVktt1xIE3eddGLk8pwx8PLEJWU_sbf32Lr7HAg?auto=format&dpr=1&w=1000"
+                  src="https://i.seadn.io/gae/ahoGV3o4vd2lGrKVNfMj0EjD-qX_hGIqe8BuCve-0HI4Om735xGBqK5iMWE6TafzVktt1xIE3eddGLk8pwx8PLEJWU_sbf32Lr7HAg?auto=format&dpr=1&w=300"
                   alt=""
                 />
               </div>

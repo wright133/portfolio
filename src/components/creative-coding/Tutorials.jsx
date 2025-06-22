@@ -84,7 +84,7 @@ function isVisited(cell) {
         </div>
 
         <div className="text-center">
-          <p className="mt-4">This is only the beginning of this part. We haven't gotten into the deep stuff, we're still yet to see how these concepts applied in some of my past released gen-art projects. You'll see mistakes that are still there even in some of my live long-form gen art projects and improvements that have been made eversince, in much recent releases. </p>
+          <p className="mt-4">This is only the beginning of this part. We haven't gotten into the deep stuff, we're still yet to see how these concepts applied in some of my past released projects. You'll see mistakes that are still there even in some of my live / on-chain gen art projects and improvements that have been made ever since. </p>
           <p className="mt-4"> <b>More tutorials coming soon.</b> For now — optimize, simplify, and always profile your code! ⚡</p>
         </div>
       </div>
