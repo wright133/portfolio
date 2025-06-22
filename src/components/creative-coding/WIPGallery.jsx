@@ -60,7 +60,7 @@ export default function WIPGallery() {
               >
                 <div className="carousel-image-wrapper">
                   <a href={item.src} target="_blank" rel="noopener noreferrer">
-                    <img src={item.src} className="d-block w-100 carousel-img" alt={item.title} />
+                    <img src={item.src} className="d-block w-100 carousel-img-" alt={item.title} />
                   </a>
                   <div className="carousel-caption-custom">
                     <h5>{item.title}</h5>
