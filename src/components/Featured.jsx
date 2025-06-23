@@ -24,7 +24,13 @@ export default function Featured () {
                 </div>
             </div> */}
 
-            <div id="featuredCarousel" className="carousel slide rounded overflow-hidden mb-5" data-bs-ride="carousel">
+            <div 
+                id="featuredCarousel" 
+                className="carousel slide rounded overflow-hidden mb-5" 
+                data-bs-ride="carousel"
+                data-bs-interval="5000"
+                data-bs-pause="false"
+            >
                 <div className="carousel-inner">
                     
                     <div className="carousel-item">

@@ -51,7 +51,14 @@ export default function WIPGallery() {
       <br></br>
       <div className="wip-carousel-gallery">
         
-        <div id="wipCarousel" className="carousel slide" data-bs-ride="carousel">
+        {/* <div id="wipCarousel" className="carousel slide" data-bs-ride="carousel"> */}
+        <div 
+          id="wipCarousel" 
+          className="carousel slide" 
+          data-bs-ride="carousel" 
+          data-bs-interval="5000"
+          data-bs-pause="false"
+        >
           <div className="carousel-inner">
             {wipGallery.map((item, index) => (
               <div
