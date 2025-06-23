@@ -49,10 +49,13 @@ export default function WIPGallery() {
       <hr className="my-5"></hr>
       <h2 className="text-center ">WIP Gallery</h2>
       <br></br>
-      <p className="text-center">These will always be updated, stay tuned. <br></br><br></br>
-      <i>For desktop, use the controls to navigate.</i>
+      <p className="text-center">These will always be updated, stay tuned. 
+      <br></br><br></br></p>
+      <p style={{ fontSize: "12px", marginLeft: "5px"}}>
+      <i>- Click an image to view</i><br></br>
+      <i>- On desktop, use the controls to navigate.</i>
       <br></br>
-      <i>For mobile, tap towards the <b>LEFT</b> or <b>RIGHT</b> of your screen to navigate, you can <b>SWIPE</b> on the image too</i>
+      <i>- On mobile, tap towards the <b>LEFT</b> or <b>RIGHT</b> of your screen to navigate, you can <b>SWIPE</b> on the image too</i>
       </p>
       <div className="wip-carousel-gallery">
         
