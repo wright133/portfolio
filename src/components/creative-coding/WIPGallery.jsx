@@ -49,6 +49,11 @@ export default function WIPGallery() {
       <hr className="my-5"></hr>
       <h2 className="text-center ">WIP Gallery</h2>
       <br></br>
+      <p className="text-center">These will always be updated, stay tuned. <br></br><br></br>
+      <i>For desktop, use the controls to navigate.</i>
+      <br></br>
+      <i>For mobile, tap towards the <b>LEFT</b> or <b>RIGHT</b> of your screen to navigate, you can <b>SWIPE</b> on the image too</i>
+      </p>
       <div className="wip-carousel-gallery">
         
         {/* <div id="wipCarousel" className="carousel slide" data-bs-ride="carousel"> */}
