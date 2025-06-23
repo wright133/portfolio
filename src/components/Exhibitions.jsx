@@ -22,7 +22,7 @@ export default function Exhibitions() {
         <div className="row justify-content-center">
           <div className="col-lg-8">
 
-            <h1 className="mb-2">Exhibitions</h1>
+            <h1 className="mb-2"><b>Exhibitions</b></h1>
             <h4 className="mb-4">Generative Art Beyond Borders 🌍</h4>
             <p className="mb-2">
               <b>Umoja</b> (Swahili for <i>unity</i>) has traveled far and wide since its debut, becoming our most exhibited artwork to date. Built with love by <b>Kamau Kamau</b> and <b>Ian Wright</b> (me), Umoja is not just art — it's a cultural dialogue in code, abstraction, and human connection. 

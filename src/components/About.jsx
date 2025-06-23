@@ -20,7 +20,7 @@ export default function About() {
             <br /><br />
 
             <div className="img-container">
-              <img src={ProfileImage} alt="Wright Ian" />
+              <img src={ProfileImage} alt="Wright Ian" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
             </div>
 
             <br />

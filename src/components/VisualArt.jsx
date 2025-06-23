@@ -57,7 +57,7 @@ export default function VisualArt() {
 
         {/* header elements */}
         <div className="container d-flex justify-content-between">
-          <h1>Artworks</h1>
+          <h1><b>Artworks</b></h1>
           {/* <select name="artworks" id="artworks">
             <option value="Featured">Sort</option>
             <option value="Newest">Recent</option>
