@@ -1,0 +1,40 @@
+/* Make sure to import this in Exhibitions.jsx */
+
+.accordion-button {
+  background-color: #f8f9fa; /* light neutral background */
+  color: #212529;
+  font-weight: 500;
+  border: none;
+  box-shadow: none;
+  transition: background-color 0.2s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  /* background-color: #e9ecef; slightly darker when active */
+  background: #ced1d4;
+  color: #000;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.accordion-button::after {
+  filter: invert(0.4); /* make the accordion arrow darker */
+}
+
+.accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.accordion-body {
+  background-color: #fff; 
+  background: #efefef;
+  padding: 1.25rem;
+  border-top: 1px solid #dee2e6;
+}

@@ -1,5 +1,5 @@
-import VisualArt from "../assets/visualart.png";
-import CreativeCoding from "../assets/creativecoding.png";
+import CreativeCodingImage from "../assets/creativecoding.png";
+import VisualArtImage from "../assets/visualart1.jpeg";
 import Projects from "../assets/projects_light.png";
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ export default function Hero() {
               <div className="heroCard black m-auto card-animation">
                 <div className="heroCardItem">
                   <div className="img-container">
-                    <img src="https://pbs.twimg.com/media/Ghmpr2lWIAArJWN?format=jpg&name=4096x4096" alt="" />
+                    <img src={VisualArtImage} alt="" />
                   </div>
                   <h1 className="title">Visual Art</h1>
                   <div className="line"></div>
@@ -39,7 +39,7 @@ export default function Hero() {
               <div className="heroCard blue m-auto card-animation">
                 <div className="heroCardItem">
                   <div className="img-container">
-                    <img src={CreativeCoding} alt="" />
+                    <img src={CreativeCodingImage} alt="" />
                   </div>
                   <h1 className="title">Creative Coding</h1>
                   <div className="line"></div>

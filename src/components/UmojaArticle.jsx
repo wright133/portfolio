@@ -49,7 +49,7 @@ export default function UmojaArticle () {
 
                         <p>Why watercolor? According to us, it’s one of the first mediums many artists encounter in school. The fluidity, blotches, and ‘happy accidents’ that come with watercolor painting evoke a sense of nostalgia and freedom—qualities that resonate with the spontaneous energy of Umoja. This artistic direction allowed us to blur the lines between traditional art and code-based generative art.</p> 
                         <div className="img-container">
-                            <img src="https://pbs.twimg.com/media/GAskAy-XcAAfLjP?format=jpg&name=medium" alt="" />
+                            <img src="https://pbs.twimg.com/media/GAskAy-XcAAfLjP?format=jpg&name=medium" alt="" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
                         </div>
                         <br />
                         <br />
@@ -66,7 +66,7 @@ export default function UmojaArticle () {
                         <p>After weeks of deep focus (coding, tweaking, and exploring different ideas), <b>Umoja</b> finally came to life. It’s a fully on-chain generative art piece that captures abstract crowds in all their variation, with thousands of subtle traits. Each iteration tells its own visual story, evoking <i>a sense of shared culture and togetherness</i>.</p>
                         <br />
                         <div className="img-container">
-                            <img src={UmojaMasterpiece} alt="" />
+                            <img src={UmojaMasterpiece} alt="" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
                         </div>
                         <br />
                         <br />
