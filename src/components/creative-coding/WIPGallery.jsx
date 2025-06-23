@@ -22,7 +22,7 @@ export default function WIPGallery() {
       <div className="container py-5">
         <h2 className="text-center mb-4">Unreleased Works</h2>
         <p className="text-center mb-5">
-          These are unreleased generative projects — rare sketches that haven't made it to final release just yet.
+          These are unreleased generative art projects, sneak peaks or rare sketches that haven't made it to final release just yet.
         </p>
 
         <div className="row g-4">
