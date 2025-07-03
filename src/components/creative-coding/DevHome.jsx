@@ -14,7 +14,7 @@ export default function DevHome() {
 
       <div className="container mt-5">
         <div className="alert alert-warning text-center" role="alert">
-          🚧 This section is still under construction. Expected updates by <strong>June 25th, 2025</strong>.
+          🚧 This section is still under construction. Expected updates by <strong>July 8th, 2025</strong>.
         </div>
       </div>
 
