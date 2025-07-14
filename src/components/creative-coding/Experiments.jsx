@@ -44,7 +44,7 @@ export default function Experiments() {
       <div className="container mt-5">
           <div className="alert alert-warning text-center" role="alert">
               🚧 This page is still under construction. Some links or sections may not be fully functional yet.<br />
-              Expected full update by <strong>July 11th, 2025</strong>.
+              Expected full update by <strong>July 18th, 2025</strong>.
           </div>
       </div>
 
