@@ -31,8 +31,7 @@ export default function VisualArt() {
                 <p>Creative coder based in Nairobi, Kenya.</p>
                 <br />
                 <p>
-                  This page features all published works of art created and
-                  co-created by Ian Wright.{" "}
+                  This page features all published works by Ian Wright, both solo and collaborative works.{" "}
                 </p>
               </div>
             </div>

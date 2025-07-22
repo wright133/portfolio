@@ -13,6 +13,11 @@
     /* background-color: red; */
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: brightness(100) !important;
+}
+
+
 .carousel-img {
   height: 500px;
   object-fit: cover;

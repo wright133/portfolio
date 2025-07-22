@@ -1,4 +1,5 @@
 import HeritageImage from "../assets/heritage-001.png"; 
+import DiscretionImage from "../assets/drops/discretion/discretion-logo2.png"; 
 import UmojaImage from "../assets/umoja.png"; 
 import ArtBaselImage from "../assets/umoja-art-basel.jpg"; 
 import RhizomeImage from "../assets/exhibitions/rhizome-ny-2.jpeg";
@@ -56,7 +57,7 @@ export default function Featured () {
                         </div>
                     </div>
 
-                    <div className="carousel-item active">
+                    <div className="carousel-item">
                         <img src={HeritageImage} className="d-block w-100 carousel-img" alt="Update 1" />
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption d-block d-md-block">
@@ -67,15 +68,27 @@ export default function Featured () {
                             </p>
                         </div>
                     </div>
+                    
+                    <div className="carousel-item active">
+                        <img src={DiscretionImage} className="d-block w-100 carousel-img" alt="Update 1" />
+                        <div className="carousel-overlay"></div>
+                        <div className="carousel-caption d-block d-md-block">
+                            <h5>Discretion</h5>   
+                            <p>A collection of curated pieces, 26 total editions, released on Objkt (Tezos).  
+                                <br></br>  
+                                <a target="_blank" href="https://objkt.com/collections/KT1JCKTiExFy14MF75ALyy8pCV2ZD6UVgwAo">View on <b>Objkt</b></a> &nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            </p>
+                        </div>
+                    </div>
 
                     {/* Add more slides as needed */}
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="carousel-control-prev-icon white-arrow" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="carousel-control-next-icon white-arrow" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
