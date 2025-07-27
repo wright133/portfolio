@@ -1,0 +1,57 @@
+.page-description {
+    width: 80%; 
+    font-size: 13px; 
+}
+
+a{
+    color: #000; 
+    text-decoration: none;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* ensures text inside child divs is centered */
+  padding-top: 10px; 
+}
+
+.work-card:hover{ 
+    cursor: pointer; 
+    background-color: #efefef;
+}
+
+.work-card .img-container {
+  height: 300px; /* or any preferred uniform height */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8; /* optional: makes whitespace clean if image doesn't fill */
+  border-radius: 4px;
+}
+
+.work-card .img-container img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.work-card .info {
+    width: 60%; 
+}
+
+.work-card h5 {
+    font-size: 1rem !important; 
+} 
+
+.work-card p {
+    text-align: center; 
+    /* background-color: blue; */
+    width: 100%; 
+    font-size: 0.8rem;
+}
+
+.instruction-note{
+    font-size: 13px;
+}

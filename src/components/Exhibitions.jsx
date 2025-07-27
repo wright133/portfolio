@@ -22,13 +22,13 @@ export default function Exhibitions() {
         <div className="row justify-content-center">
           <div className="col-lg-8">
 
-            <h1 className="mb-2"><b>Exhibitions</b></h1>
-            <h4 className="mb-4">Generative Art Beyond Borders 🌍</h4>
+            <h3 className="mb-2"><b>Exhibitions</b></h3>
+            <h5 className="mb-4">Generative Art Beyond Borders</h5>
             <p className="mb-2">
-              <b>Umoja</b> (Swahili for <i>unity</i>) has traveled far and wide since its debut, becoming our most exhibited artwork to date. Built with love by <b>Kamau Kamau</b> and <b>Ian Wright</b> (me), Umoja is not just art — it's a cultural dialogue in code, abstraction, and human connection. 
+              Over the years, Ian Wright's art has found its way into galleries, festivals, and cultural showcases around the world, from <b>Miami</b> to <b>Seoul</b>, <b>Brasilia</b> to <b>New York</b>. Each exhibition marks a milestone not just in visibility, but in the <b>evolution</b> of his practice: a journey that turns code, culture, and spirit into visual form.
             </p>
             <hr></hr>
-            <p className="mb-5">Here's a look at where Umoja has been showcased and the amazing communities that made it possible:</p>
+            <p className="mb-5">Here's a look at where the art has been showcased and the amazing communities that made it possible:</p>
 
             <div className="accordion" id="exhibitionsAccordion">
 
@@ -41,16 +41,16 @@ export default function Exhibitions() {
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#exhibitionsAccordion">
                   <div className="accordion-body">
-                    <p> Umoja premiered at <b>Tezos @ South Beach / Art Basel Miami</b>, one of the world’s most prominent art events. This moment marked a turning point in our careers — not only did our generative art stand shoulder-to-shoulder with global talents, but we were also part of a live minting experience that brought Umoja into collectors’ hands in real-time.</p>
+                    <p>"Umoja" premiered at Tezos @ South Beach during Art Basel Miami, one of the world’s most prestigious art events, a pivotal moment in Wright’s artistic journey, as his work stood alongside global talents in a live minting experience that placed the piece directly into the hands of collectors in real time. The work exhibited here, Umoja, is a collaborative project by Kenyan creators Kamau Kamau and Ian Wright, close friends and business partners who have been consistently releasing work together since 2021.</p> 
                     <div className="img-container d-flex justify-content-center align-items-center">
                         <img src={ArtBaselImage} alt="Art Basel Miami 2023" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }}  />
                     </div>
                     <br></br>
                        <p>
-                            Special thanks to <b><a href="https://x.com/ancurated" target="_blank" rel="noreferrer">@ancurated</a></b>, <b><a href="https://x.com/RefractionDAO" target="_blank" rel="noreferrer">@RefractionDAO</a></b>, <b><a href="https://x.com/tezos" target="_blank" rel="noreferrer">@tezos</a></b>, and <b><a href="https://x.com/fx_hash_" target="_blank" rel="noreferrer">@fx_hash_</a></b> — your support and encouragement made this possible. You truly embodied the spirit of Umoja.
+                            Special thanks to <b><a href="https://x.com/ancurated" target="_blank" rel="noreferrer">@ancurated</a></b>, <b><a href="https://x.com/RefractionDAO" target="_blank" rel="noreferrer">@RefractionDAO</a></b>, <b><a href="https://x.com/tezos" target="_blank" rel="noreferrer">@tezos</a></b>, and <b><a href="https://x.com/fx_hash_" target="_blank" rel="noreferrer">@fx_hash_</a></b>, their support and encouragement made this possible, truly embodying the spirit of 'Umoja'.
                         </p>
                          <p>
-                            We also got to see something beautiful: triptychs and diptychs of Umoja pieces assembled side-by-side, revealing the tesselated design — like an interconnected map of humanity. This aesthetic intention, captured beautifully by <b><a href="https://x.com/nygi_xxv" target="_blank" rel="noreferrer">@nygi_xxv</a></b> (Nygilia), was fully realized in Miami.
+                            We also got to see something beautiful: triptychs and diptychs of Umoja pieces assembled side-by-side, revealing the tesselated design, like an interconnected map of humanity. This aesthetic intention, captured beautifully by <b><a href="https://x.com/nygi_xxv" target="_blank" rel="noreferrer">@nygi_xxv</a></b> (Nygilia), was fully realized in Miami.
                         </p>
                         <div className="img-container d-flex justify-content-center align-items-center">
                             <img src={TriptychCapture} alt="Triptych Installation" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }}  />
@@ -69,9 +69,9 @@ export default function Exhibitions() {
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#exhibitionsAccordion">
                   <div className="accordion-body">
                     <p>
-                        Umoja was displayed during African Union Day celebrations in Brasilia, Brazil, in early 2024. The project resonated strongly with the event’s message of cultural solidarity, identity, and community.
+                        'Umoja' was displayed during African Union Day celebrations in Brasilia, Brazil, in early 2024. The project resonated strongly with the event’s message of cultural solidarity, identity, and community.
                     </p>
-                     <p>Special thanks to <b><a href="https://x.com/StudioYorktown" target="_blank" rel="noreferrer">@StudioYorktown</a></b> (Bruce) for making this happen 🙏🏾</p>
+                     <p>Special thanks to <b><a href="https://x.com/StudioYorktown" target="_blank" rel="noreferrer">@StudioYorktown</a></b> (Bruce) for making this happen.</p>
                      <div className="img-container d-flex justify-content-center align-items-center">
                         <img src={BrazilImage} alt="African Union Day Brazil" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
                     </div>
@@ -89,9 +89,9 @@ export default function Exhibitions() {
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#exhibitionsAccordion">
                   <div className="accordion-body">
                     <p>
-                        Umoja appeared in a hybrid art and music event — a unique collaboration between <b><a href="https://x.com/zero________one" target="_blank" rel="noreferrer">@zero________one</a></b> and <b>Lila</b>. This immersive exhibition explored culture through sound and visuals, and Umoja’s presence served as a digital thread stitching global experiences together.
+                        'Umoja' appeared in a hybrid art and music event, a unique collaboration between <b><a href="https://x.com/zero________one" target="_blank" rel="noreferrer">@zero________one</a></b> and <b>Lila</b>. This immersive exhibition explored culture through sound and visuals, and Umoja’s presence served as a digital thread stitching global experiences together.
                     </p>
-                    <p>With deep gratitude to <b><a href="https://x.com/juujuumama" target="_blank" rel="noreferrer">@juujuumama</a></b> (Sierra Renee Ayo Sade) and the entire team at ZERO ONE 🙏🏾</p>
+                    <p>With deep gratitude to <b><a href="https://x.com/juujuumama" target="_blank" rel="noreferrer">@juujuumama</a></b> (Sierra Renee Ayo Sade) and the entire team at ZERO ONE.</p>
                     <div className="img-container d-flex justify-content-center align-items-center">
                         {/* <img src={KoreaImage} alt="Seoul Korea Event" /> */}
                         <video src={KoreaImage} controls autoPlay muted loop width="100%" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }}  />
@@ -110,7 +110,7 @@ export default function Exhibitions() {
                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#exhibitionsAccordion">
                   <div className="accordion-body">
                      <p>
-                        In 2025, Umoja was invited to show at <b>Rhizome World</b> — an annual global event by <b><a href="https://x.com/rhizome" target="_blank" rel="noreferrer">@rhizome</a></b> and <b><a href="https://x.com/ProcessingOrg" target="_blank" rel="noreferrer">@ProcessingOrg</a></b>. This was a full-circle moment as we showcased generative work alongside creators from all over the world who had also bridged the gap between software and story-telling. 
+                        In 2025, 'Umoja' was invited to show at <b>Rhizome World</b>, an annual global event by <b><a href="https://x.com/rhizome" target="_blank" rel="noreferrer">@rhizome</a></b> and <b><a href="https://x.com/ProcessingOrg" target="_blank" rel="noreferrer">@ProcessingOrg</a></b>. This was a full-circle moment as this work was showcased alongside creators from all over the world who had also bridged the gap between software and story-telling. 
                     </p> 
                     <div className="img-container d-flex justify-content-center align-items-center">
                         <img src={RhizomeImage} alt="Rhizome World NYC" style={{ maxWidth: '100%', maxHeight: '400px', objectFit: 'contain' }} />
@@ -120,7 +120,7 @@ export default function Exhibitions() {
               </div>
 
               {/* Outro */}
-              <div className="accordion-item">
+              {/* <div className="accordion-item">
                 <h2 className="accordion-header" id="headingFive">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Where Next?
@@ -134,7 +134,7 @@ export default function Exhibitions() {
                     <p><i>Asante Sana</i> (Thank you) to all supporters across the globe 🌍</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
 
@@ -144,17 +144,18 @@ export default function Exhibitions() {
     
           <div className="col-lg-8">
             <hr className="my-5"></hr>
-            <h3>Experience Umoja</h3>
+            <h3>Experience <b>Umoja</b></h3>
             <p>
-                Each Umoja piece is generative and on-chain. We released <b>254 editions</b> to honor Kenya’s country code. The collection is still minting on the primary market for <b>40 XTZ</b> — affordable, meaningful, and part of a global story.
+               Each piece in Umoja is fully generative and permanently recorded on-chain. The 254-edition collection pays homage to Kenya’s country code, a symbol of identity, origin, and unity. This project has traveled the world, from Art Basel Miami to digital galleries across continents, yet its heart remains deeply rooted in culture. <br></br>A limited number of editions remain available for primary mint on FxHash.
             </p>
-            <p><a href="https://www.fxhash.xyz/generative/slug/umoja" target="_blank" rel="noreferrer"><b>→ Mint Umoja on FxHash</b></a></p>
+            <p><a href="https://www.fxhash.xyz/generative/slug/umoja" target="_blank" rel="noreferrer">
+                <button className="btn custom-cta more-priority-btn">
+                  <b>Add To Your Collection</b>
+                </button>
+            </a></p>
 
             <br />
-            <h3><i>Asante Sana</i></h3>
-            <p>
-                To every curator, platform, collector, and friend who has offered support — <b>asante</b> (thank you in Swahili). Umoja is about you as much as it is about us. From Nairobi to Miami, Seoul to New York — we walk together.
-            </p>
+            
           </div>
 
         </div>

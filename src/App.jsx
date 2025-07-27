@@ -26,6 +26,7 @@ import {
 import Article from './components/Article';
 import UmojaArticle from './components/UmojaArticle'; 
 import artworks from "./components/data/artworks";
+import LatestWork from './components/LatestWork';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
               <Route path="/footer" element={<Footer/>} />
               <Route path="/featured" element={<Featured/>} /> 
               <Route path="/visual-art" element={<VisualArt/>} /> 
+              <Route path="/latest" element={<LatestWork/>} /> 
               <Route path="/artwork/:slug" element={<Artwork artworks={artworks} />} />
               {/* <Route path="/artwork" element={<Artwork/>} />  */}
               <Route path="/article-template" element={<Article/>} /> 

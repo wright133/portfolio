@@ -25,11 +25,20 @@ export default function Menu() {
 
   return (
     <>
-      <div className="menu">
-        <ul>
-          <li className="menuButton" onClick={toggleMenu}>Menu</li>
-        </ul>
-      </div>
+     <div className="menu">
+      <ul>
+        {/* Show text on medium and up, hide on small */}
+        <li className="menuButton d-none d-md-inline" onClick={toggleMenu}>
+          Menu
+        </li>
+
+        {/* Show icon only on small screens, hide on md and up */}
+        <li className="menuButton d-inline d-md-none" onClick={toggleMenu}>
+          <i className="fa-solid fa-bars menuIcon"></i>
+        </li>
+      </ul>
+    </div>
+
 
       {/* Sliding Menu Overlay */}
       <div ref={menuRef} className={`side-menu ${isOpen ? "open" : ""}`}>

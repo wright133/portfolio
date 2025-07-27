@@ -23,7 +23,8 @@ export default function VisualArt() {
       {/* <p>Explore all visual art here by Ian Wright</p> */}
 
       <div className="container">
-        <div className="container mb-5">
+
+        {/* <div className="container mb-5">
           <div className="row">
             <div className="col-md-6 mb-4 d-flex justify-content-center align-items-center">
               <div className="text-container text-center">
@@ -52,10 +53,10 @@ export default function VisualArt() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* header elements */}
-        <div className="container d-flex justify-content-between">
+        <div className="container d-flex justify-content-between mt-3">
           <h1><b>Artworks</b></h1>
           {/* <select name="artworks" id="artworks">
             <option value="Featured">Sort</option>
@@ -114,7 +115,7 @@ export default function VisualArt() {
           {artworks.map((art) => (
             <div key={art.slug} className="col-md-4">
               <Link  style={{ textDecoration: 'none' }} to={`/artwork/${art.slug}`}>
-                <div className="art-card">
+                <div className="art-card" style={{"borderRadius":"0px"}}>
                   <div className="img-container">
                     <img src={art.thumbnail} alt={art.title} />
                   </div>

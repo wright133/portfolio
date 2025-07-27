@@ -31,7 +31,12 @@ export default function Artwork() {
                   {art.description}
                 </ReadMore>
               </p>
-              <p><a href={art.link} target="_blank" rel="noopener noreferrer">View on Marketplace</a></p>
+              <a href={art.link} target="_blank" rel="noopener noreferrer">
+                <button className="btn custom-cta more-priority-btn">
+                  Add to Your Collection
+                </button>
+              </a>
+              {/* <p></p> */}
             </div>
           </div>
 

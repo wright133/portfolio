@@ -2,13 +2,22 @@
 .menu ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0; 
+}
+
+.menu li {
+  
+  font-size: 16px !important;
 }
 
 .menuButton {
   cursor: pointer;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.menuIcon {
+  font-size: 24px;
 }
 
 /* Side Menu Sliding Panel */
@@ -19,6 +28,7 @@
   height: 100vh;
   /* background: #efefef; */
   background: rgba(255, 255, 255, 0.6); /* light color with transparency */
+  background: #fff; 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Safari support */
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
@@ -30,6 +40,10 @@
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+}
+
+.side-menu li:hover {
+  text-decoration: underline;
 }
 
 /* When open */

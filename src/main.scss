@@ -33,8 +33,7 @@ plus-jakarta-sans-extrabold {
 body {
     font-family: "Plus Jakarta Sans"; 
     background: #efefef; 
-    // background: #fff;
-    // background: #fff;
+    background: #ffffff;
 }
 
 @keyframes appear {
@@ -124,16 +123,25 @@ $premiumBlue: #0e74f6;
 } 
 
 // Homepage elements from here 
+button:focus,
+button:focus-visible,
+.btn:focus,
+.btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 .navbar {
     position: relative; 
     // background-color: beige; 
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    // justify-content:center; 
     // align-items: center; 
     height: 100px; 
 
     .logoLink {
+        position: relative;
         text-decoration: none; 
         color: #000; 
     }
@@ -154,7 +162,11 @@ $premiumBlue: #0e74f6;
     } 
 
     .menu { 
-        align-self: flex-end; 
+        position: absolute; 
+        padding: 5px; 
+        right: 0px; 
+        top: calc((100px - 30px)/2);
+        // align-self: flex-end; 
         ul {
             list-style: none; 
             display: flex; 
@@ -166,10 +178,11 @@ $premiumBlue: #0e74f6;
         li {
             cursor: pointer; 
             font-size: 24px; 
-            padding: 10px; 
+            // padding: 10px; 
         }
         
         .menuButton {
+            // height: 60px; 
             font-weight: 500; 
             font-size: 18px;
         }
@@ -179,7 +192,7 @@ $premiumBlue: #0e74f6;
 
 .welcome-text {    
     width: 90%; 
-    height: 48vh; 
+    height: 18vh; 
     display: flex; 
     flex-direction: column; 
     justify-content: center;  
@@ -188,9 +201,68 @@ $premiumBlue: #0e74f6;
     border-bottom: 1px solid #545454;
     
     h2, p { 
+        color: #000; 
         text-align: center; 
+        font-weight: 700;
     }
 }  
+
+.bottom-border {
+    border-bottom: 1px solid #545454;
+}
+
+.custom-cta {
+    background: #fff; 
+    color: #000; 
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    border-radius: 0px !important;
+    width: 200px; 
+    font-weight: bold !important; 
+    font-size: 13px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+}
+
+.custom-cta:hover{
+    background: #fff !important; 
+    color: #000 !important; 
+    border: 1px solid #000 !important; 
+    border: 2px solid #000; 
+    a, p{
+        color: #000 !important; 
+    }
+}
+.more-priority-btn {
+    background: #000 !important; 
+    color: #fff !important; 
+}
+
+.medium-priority-btn {
+    background: #000 !important; 
+    color: #fff !important; 
+}
+
+.less-priority-btn {
+    background: #000 !important; 
+    color: #fff !important; 
+}
+
+// .more-priority-btn:hover{
+//     background: #fff !important; 
+//     color: #000 !important; 
+// }
+
+// .medium-priority-btn:hover{
+//     background: hsl(0, 0%, 0%) !important; 
+//     color: #fff !important; 
+// }
+
+// .more-priority-btn:hover{
+//     background: #fff !important; 
+//     color: #000 !important; 
+// }
+
 
 .hero {
     // position: relative; 
@@ -412,13 +484,16 @@ $premiumBlue: #0e74f6;
         padding: 10px; 
         // background: #fff;  
         // border-radius: 30px;
-
+        &:hover{
+            // text-decoration: underline; 
+            background: #efefef;
+        }
         .img-container {
             position: relative;
             width: inherit; 
             height: 200px; 
             background: #0e74f6; 
-            border-radius: 10px;
+            // border-radius: 10px;
             overflow: hidden; 
             
             img {
@@ -433,13 +508,13 @@ $premiumBlue: #0e74f6;
 
         .title {
             margin-top: 10px; 
-            font-size: 20px; 
+            font-size: 18px; 
             font-weight: 600;
         } 
 
         .desc{
             margin-top: 10px; 
-            font-size: 15px;
+            font-size: 13px;
         }
         
         .button { 
@@ -626,16 +701,19 @@ $premiumBlue: #0e74f6;
         height: auto; 
         // border: 1px solid $strongBlack; 
         // border-radius: 10px; 
-        background: beige; 
+        // background: beige; 
+        background: #fff !important;
+        border: 2px solid #b9b9b9; 
         overflow: hidden; 
         margin: 20px; 
 
         &:hover{
-            background: #f5f5f5;  
+            // background: #f5f5f5 !important; 
+            border-color: #000 !important; 
             cursor: pointer;
-            .exhibitionCardItem .img-container img {
-                transform: scale(1.2);
-            }   
+            // .exhibitionCardItem .img-container img {
+            //     transform: scale(1.2);
+            // }   
         }
     } 
 
@@ -727,17 +805,20 @@ $premiumBlue: #0e74f6;
         height: auto; 
         // border: 1px solid $strongBlack; 
         // border-radius: 10px; 
-        background: beige; 
+        // background: beige; 
+        background: #fff !important;
         overflow: hidden; 
         margin: 20px; 
         text-decoration: none; 
+        border: 2px solid #b9b9b9; 
 
         &:hover{
-            background: #f5f5f5;  
+            // background: #f5f5f5 !important;  
+            border-color: #000 !important; 
             cursor: pointer;
-            .journalCardItem .img-container img {
-                transform: scale(1.2);
-            }   
+            // .journalCardItem .img-container img {
+            //     transform: scale(1.2);
+            // }   
         }
     } 
 
@@ -841,12 +922,24 @@ $premiumBlue: #0e74f6;
 
     .artwork-description {
         // height: 80vh; 
-        font-size: 14px;
+        font-size: 13px;
         // overflow:scroll;
+
+        h4 {
+            // font-size: 20px; 
+            font-weight: bold; 
+        }
 
         h5 {
             font-size: 16px; 
             // padding: 30px; 
+        }
+
+        a {
+            color: #fff; 
+            &:hover{
+                color: #000; 
+            }
         }
     } 
 
@@ -921,7 +1014,8 @@ $premiumBlue: #0e74f6;
         align-items: center;
         flex-direction: column;
         justify-content: center; 
-        border-radius: 10px;
+        // border-radius: 10px; 
+        border-radius: 0px !important;
         cursor: pointer;  
 
         &:hover {

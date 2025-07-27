@@ -1,0 +1,21 @@
+
+
+.about-page p {
+    font-size: 14px;
+}
+
+.about-page h5 {
+    font-size: 16px;
+}
+
+.about-page img {
+    border-radius: 10px;
+}
+
+.about-pic img {
+    border-radius: 10px !important;
+}
+
+.big-text {
+    font-size: 20px !important;
+}

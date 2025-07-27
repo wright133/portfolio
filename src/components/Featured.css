@@ -9,12 +9,17 @@
     /* padding-top: 20px;  */
     /* padding-bottom: 70px;  */
     border-bottom: 1px solid #000; 
-    border-radius: 20px !important; 
+    /* border-radius: 20px !important;  */
+    border-radius: 0px !important;
     /* background-color: red; */
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    filter: brightness(100) !important;
+.carousel-control-prev-icon-one, .carousel-control-next-icon-one {
+    filter: brightness(100);
+}
+
+.white-arrow{
+  filter: brightness(100) !important;
 }
 
 
@@ -50,6 +55,10 @@
   color: #fff !important;
   text-align: left;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption a:hover {
+  text-decoration: underline !important;
 }
 
 /* Optional: Override for large screens */
