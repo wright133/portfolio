@@ -12,7 +12,12 @@ export default function Hero() {
     <div>
       <div className="container d-flex justify-content-center mb-3">
         <div className="welcome-text">
-          <h2>IAN WRIGHT</h2> 
+          <h2>
+              IAN WRIGHT 
+              <span className="subscriptLink">
+                <a href="/about">(about)</a>
+              </span>
+            </h2> 
           {/* <br /> */}
           {/* <p>You are welcome to explore the intersection of <i>Art</i>, <i>Technology</i> and <i>Humanity</i>.</p>  */}
         </div>
