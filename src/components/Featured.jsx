@@ -6,6 +6,7 @@ import RhizomeImage from "../assets/exhibitions/rhizome-ny-2.jpeg";
 import InnerReflectionImage from "../assets/articles/inner-reflection/ir6.png";
 import { Link } from "react-router-dom";
 import "./Featured.css";
+import MailchimpForm from "./MailchimpForm";
 
 
 export default function Featured () {
@@ -125,6 +126,11 @@ export default function Featured () {
                 
 
             </div>
+            
+            <div className="row">
+               {/* <MailchimpForm/> */}
+            </div>
+
             <div className="featured-separator"></div>
         </div>
     )

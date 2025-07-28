@@ -17,7 +17,7 @@ export default function LatestWork() {
   return (
     <div className="">
       <Navbar />
-      <div className="container d-flex align-items-center">
+      <div className="container d-flex align-items-center justify-content-center">
         <h3 className="mx-2"><b>LATEST WORK</b></h3>
         <p className="mt-2 page-description">
             These works are fresh from the studio, released as 1/1 pieces, limited editions, or long-form generative art. Explore and claim yours while they're still available.
