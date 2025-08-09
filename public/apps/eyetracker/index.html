@@ -1,0 +1,74 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simulation Experiment | Ian Wright</title>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <script src="p5.min.js"></script> -->
+    <style>
+      * {font-family: "Montserrat", sans-serif; }
+      body { margin: 0; overflow: hidden;}
+      canvas { display: block; }
+      .message {
+        position: absolute; 
+        top: 0px; 
+        left: 0px; 
+        width: 100vw !important; 
+        height: 100vh !important; 
+        display: none;
+      }
+      .message-card {
+        text-align: center;
+        width: 100vw !important; 
+        height: 100vh !important; 
+        font-size: 5rem !important; 
+        background-color: #000 !important; 
+        color: #fff !important; 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      button, #startBtn, #recalibrateBtn, #proceedBtn {
+        background: #fff; 
+        color: #000; 
+        border: 2px solid #000; 
+        font-size: 16px;
+        width: 200px; 
+        cursor: pointer; 
+        /* height: 100px;   */
+        font-weight: bold; 
+        &:hover{
+          background: #000; 
+          color: #fff; 
+          border-color: #fff;  
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="message">
+      <div class="message-card">
+        <p>Hello friend, </p>
+        <p>
+          Oops, this doesn't work on mobile displays just yet because I actually have a life (just kidding, working on it), but I promise you the desktop version 💻 is a much better experience, TRY IT! Godspeed ✨
+        </p>
+        <p>
+          <a href="https://ianwright.vercel.app">
+            <button>Back</button>
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <!-- ✅ sketch.js LAST so webgazer is ready -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
