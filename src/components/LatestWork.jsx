@@ -3,6 +3,7 @@ import Footer from "./Footer";
 
 import DiscretionImage from "../assets/latest-work/discretion-logo.png";
 import InnerReflectionImage from "../assets/latest-work/ir6.png";
+import ContinuumImage from "../assets/latest-work/continuum.png"; 
 import HeritageImage from "../assets/latest-work/heritage-001.png";
 
 import "./latest-work.css";
@@ -26,11 +27,26 @@ export default function LatestWork() {
       <div className="container text-center">
         <div className="row mt-5">
           {/* Insert latest work cards here */}
-          <div className="col-md-6">
+          <div className="col-md-4">
+            <a href="https://objkt.com/tokens/KT1Q9xy4TyScX2SDz7cnNdjoHXsUtuBKtvZK/10" target="_blank">
+                <div className="work-card">
+                    <div className="img-container">
+                        <img src={ContinuumImage} className="img-fluid" alt="Latest work 1" /> 
+                    </div>
+                    <div className="info">
+                        <h5 className="mt-2">Continuum (auction)</h5>
+                        <p className="text-muted">A line may be a path made by a point moving in space but it also bridges two points, which creates connection, convergence and cycles...
+</p>
+                    </div>
+                </div>
+            </a>
+          </div>
+          
+          <div className="col-md-4">
             <a href="https://objkt.com/collections/KT1JCKTiExFy14MF75ALyy8pCV2ZD6UVgwAo" target="_blank">
                 <div className="work-card">
                     <div className="img-container">
-                        <img src={DiscretionImage} className="img-fluid" alt="Latest work 1" /> 
+                        <img src={DiscretionImage} className="img-fluid" alt="Latest work 2" /> 
                     </div>
                     <div className="info">
                         <h5 className="mt-2">Discretion</h5>
@@ -40,12 +56,12 @@ export default function LatestWork() {
             </a>
           </div>
 
-          <div className="col-md-6 text-center">
+          <div className="col-md-4 text-center">
             
             <a href="https://gamma.io/ordinals/collections/inner-reflection" target="_blank">
                 <div className="work-card">
                     <div className="img-container">
-                        <img src={InnerReflectionImage} className="img-fluid" alt="Latest work 2" />
+                        <img src={InnerReflectionImage} className="img-fluid" alt="Latest work 3" />
                     </div>
                     <div className="info">
                         <h5 className="mt-2">Inner Reflection</h5>
