@@ -21,7 +21,7 @@ export default function LatestWork() {
       <div className="container d-flex align-items-center justify-content-center">
         <h3 className="mx-2"><b>LATEST WORK</b></h3>
         <p className="mt-2 page-description">
-            These works are fresh from the studio, released as 1/1 pieces, limited editions, or long-form generative art. Explore and claim yours while they're still available.
+            These works are fresh from the studio, released as 1/1 pieces, limited editions, or long-form generative art. Your next favorite piece is waiting, don’t miss it! 
         </p>
       </div>
       <div className="container text-center">
@@ -75,7 +75,7 @@ export default function LatestWork() {
       </div>
 
       <div className="container my-5 text-center">
-        <div className="instruction-note"><i>Access the release instantly, for now, just one click takes you to the platform where you can secure a piece. <br></br>Thank you for your continued support.</i></div>
+        <div className="instruction-note"><i>Access the release instantly on this page. One click takes you to where your next favorite piece awaits. <br></br>Thank you for your continued support.</i></div>
       </div>
       <Footer />
     </div>
