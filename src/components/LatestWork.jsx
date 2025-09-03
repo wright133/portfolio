@@ -34,7 +34,7 @@ export default function LatestWork() {
                         <img src={ContinuumImage} className="img-fluid" alt="Latest work 1" /> 
                     </div>
                     <div className="info">
-                        <h5 className="mt-2">Continuum (auction)</h5>
+                        <h5 className="mt-2">Continuum 📢SOLD!</h5>
                         <p className="text-muted">A line may be a path made by a point moving in space but it also bridges two points, which creates connection, convergence and cycles...
 </p>
                     </div>
